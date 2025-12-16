@@ -397,4 +397,5 @@ func main() {
 	fmt.Println("\n✅ Очистка завершена!")
 	fmt.Println("\n⚠️  Важно: После удаления манифестов запустите garbage collection в Registry:")
 	fmt.Println("docker exec <registry-container> registry garbage-collect /etc/docker/registry/config.yml")
+	fmt.Println("Или в поде -> registry garbage-collect /etc/docker/registry/config.yml")
 }
